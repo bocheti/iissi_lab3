@@ -25,4 +25,4 @@ const restaurantHasNoOrders = async (req, res, next) => {
   }
 }
 
-export { checkRestaurantOwnership, restaurantHasNoOrders }
+export default { checkRestaurantOwnership, restaurantHasNoOrders }
